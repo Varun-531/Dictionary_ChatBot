@@ -1,0 +1,19 @@
+{
+  "name": "nsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ServerBackend.js",
+  "scripts": {
+    "start": "nodemon ServerBackend.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "mongoose": "^8.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.0.2"
+  }
+}
